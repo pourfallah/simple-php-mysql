@@ -47,7 +47,7 @@ You can include the `MySQL.php` class in your project by following these steps:
 ## Usage Example:
 Here’s a basic example of how to use the MySQL class in your project:
 
-```
+```php
 <?php
 // Define the base directory constant
 define('MT_BASEDIR', __DIR__);
