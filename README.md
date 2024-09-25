@@ -32,11 +32,11 @@ You can include the `MySQL.php` class in your project by following these steps:
 
 2. **Require the Package:**
    ```bash
-   composer require pourfallah/simple-php-mysql```
+   composer require pourfallah/simple-php-mysql
 
 4. **Include Composer’s Autoload in Your PHP Script:**
    ```php
-   require 'vendor/autoload.php';```
+   require 'vendor/autoload.php';
 
 ### Manual Installation
 
@@ -45,7 +45,7 @@ You can include the `MySQL.php` class in your project by following these steps:
 
 2. **Include the Class in Your PHP Script:**
    ```php
-   require_once 'path/to/MySQL.php';```
+   require_once 'path/to/MySQL.php';
 
 ## Usage Example:
 Here’s a basic example of how to use the MySQL class in your project:
