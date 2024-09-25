@@ -31,10 +31,12 @@ You can include the `MySQL.php` class in your project by following these steps:
    composer init
 
 2. **Require the Package:**
-   ```composer require pourfallah/simple-php-mysql```
+   ```bash
+   composer require pourfallah/simple-php-mysql```
 
-3. **Include Composer’s Autoload in Your PHP Script:**
-   ```php require 'vendor/autoload.php';```
+4. **Include Composer’s Autoload in Your PHP Script:**
+   ```php
+   require 'vendor/autoload.php';```
 
 ### Manual Installation
 
@@ -42,7 +44,8 @@ You can include the `MySQL.php` class in your project by following these steps:
        Clone the repository or download the file directly from [GitHub](https://github.com/pourfallah/simple-php-mysql).
 
 2. **Include the Class in Your PHP Script:**
-   ```php require_once 'path/to/MySQL.php';```
+   ```php
+   require_once 'path/to/MySQL.php';```
 
 ## Usage Example:
 Here’s a basic example of how to use the MySQL class in your project:
