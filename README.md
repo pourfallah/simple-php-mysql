@@ -28,7 +28,7 @@ You can include the `MySQL.php` class in your project by following these steps:
 
 1. **Initialize Composer** (if you haven't already):
    ```bash
-   composer init```
+   composer init
 
 2. **Require the Package:**
    ```composer require pourfallah/simple-php-mysql```
