@@ -52,9 +52,6 @@ Here’s a basic example of how to use the MySQL class in your project:
 
 ```php
 <?php
-// Define the base directory constant
-define('MT_BASEDIR', __DIR__);
-
 // Include the MySQL class (assuming it's saved as MySQL.php)
 require_once 'MySQL.php';
 
