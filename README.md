@@ -96,13 +96,13 @@ if ($db->connect('username', 'password', 'database_name', 'localhost')) {
 
 ## Parameters
 
-- **connect**(user,user,pass, name,name,host, $port): Establishes a connection to the MySQL database.
-- **insert**(table,table,args, where,where,options): Inserts a new record into a specified table.
-- **line**($Q): Executes a query and returns a single row.
-- **table**(Q,Q,id, $unic): Executes a query and returns multiple rows.
-- **update**(table,table,data, condition,condition,limit): Updates existing records in a table.
-- **delete**(table,table,condition): Deletes records from a table.
-- **countRecords**(table,table,condition): Counts the number of records in a table based on a condition.
+- **connect**($user, $pass, $databasename, $host, $port): Establishes a connection to the MySQL database.
+- **insert**($table, $data, $where, $options): Inserts a new record into a specified table.
+- **line**($Query): Executes a query and returns a single row.
+- **table**($Query,$id, $unic): Executes a query and returns multiple rows.
+- **update**($table, $data, $condition, $limit): Updates existing records in a table.
+- **delete**($table, $condition): Deletes records from a table.
+- **countRecords**($table, $condition): Counts the number of records in a table based on a condition.
 - **lastId**(): Retrieves the ID of the last inserted record.
 - **close**(): Closes the database connection.
 
